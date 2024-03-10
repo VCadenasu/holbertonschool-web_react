@@ -44,3 +44,6 @@ function createTable(data: Student[], headers: string[]): HTMLElement {
 
     return table;
 }
+
+const table = createTable(studentsList, null);
+console.log(table.outerHTML);
