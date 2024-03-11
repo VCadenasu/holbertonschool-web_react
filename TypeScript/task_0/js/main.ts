@@ -21,7 +21,7 @@ const student2: Student = {
 
 const studentsList: Student[] = [student1, student2];
 
-function createTable(data: Student[], headers: string[]): HTMLElement {
+function createTable(data: Student[]): HTMLElement {
     const table = document.createElement("table");
 
     const tableBody = document.createElement("tbody");
@@ -45,6 +45,6 @@ function createTable(data: Student[], headers: string[]): HTMLElement {
     return table;
 }
 
-const table = createTable(studentsList, null);
+const table = createTable(studentsList);
 const body = document.querySelector("body");
 body.appendChild(table);
