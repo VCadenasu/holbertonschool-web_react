@@ -46,4 +46,5 @@ function createTable(data: Student[], headers: string[]): HTMLElement {
 }
 
 const table = createTable(studentsList, null);
-console.log(table.outerHTML);
+const body = document.querySelector("body");
+body.appendChild(table);
