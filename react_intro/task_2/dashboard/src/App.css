@@ -38,11 +38,10 @@ label {
 }
 
 button {
-  padding: 10px 15px;
-  background-color: #91a1b3;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+  background-color: white;
+  color: black;
+  border: 1px solid gray;
+  border-radius: 2px;
   cursor: pointer;
 }
 
